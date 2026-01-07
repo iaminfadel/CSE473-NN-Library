@@ -3,6 +3,11 @@ numpy>=1.21.0
 matplotlib>=3.5.0
 scikit-learn>=1.0.0
 
+# Performance optimization dependencies
+numba>=0.56.0
+cython>=0.29.0
+joblib>=1.1.0
+
 # Additional dependencies for development and demonstration
 jupyter>=1.0.0
 notebook>=6.4.0
