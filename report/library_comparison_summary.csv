@@ -1,0 +1,12 @@
+Metric,Original Library,Optimized Library,TensorFlow
+XOR Final Loss,0.0045,0.0025,0.0264
+XOR Accuracy (%),100.0%,100.0%,100.0%
+XOR Training Time (s),1.873,1.744,12.644
+XOR Implementation (lines),~55,~55,~20
+Autoencoder Final Loss,0.0868,0.0868,Similar
+Autoencoder Training Time (s),1600.0,1300.8,Much faster
+Autoencoder Implementation (lines),~150,~150,~25
+Code Reduction vs Original,Baseline,Same,~65% reduction
+Speed vs Original,Baseline,1.2x faster,0.1x faster
+Educational Value,High,High,Low
+Production Readiness,Medium,Medium,High

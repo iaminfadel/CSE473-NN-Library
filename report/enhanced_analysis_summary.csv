@@ -1,0 +1,5 @@
+Implementation,Task,Training Time (s),Final Loss,Final MSE,Peak Memory (MB),Memory Delta (MB),Efficiency (Loss/s),Avg Time (s),Max Size Tested,Success Rate (%),Avg Memory (MB),Scalability Score
+Custom,Autoencoder Training,23.76,0.224197,0.225255,319.0,27.5,0.003804,,,,,
+Tensorflow,Autoencoder Training,11.60,0.230772,0.231309,445.9,126.9,0.000071,,,,,
+Custom,Stress Test,,,,,,,6.73,3000,100,305.8,1.00
+Tensorflow,Stress Test,,,,,,,3.35,3000,100,349.9,1.00
